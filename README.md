@@ -4,13 +4,13 @@
 
 This is a wails template based on the official Wails Svelte-TS template.
 
-It implements Svelte, Vite, TypeScript, Tailwindcss and the FlowBite framework.
+It implements Svelte, Vite, TypeScript, Tailwindcss and the DaisyUI framework.
 
 ## Installation
 
 To use the template, run `wails init` with the url of this repo as the template parameter like so:
 ```
-wails init -n <name_of_project> -t https://github.com/AlexBitsTech/svelte-vite-ts-tailwind-flowbite
+wails init -n <name_of_project> -t https://github.com/AlexBitsTech/svelte-vite-ts-tailwind-daisyui
 ```
 
 ## Updating dependencies
