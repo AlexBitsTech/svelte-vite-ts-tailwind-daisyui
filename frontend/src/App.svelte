@@ -19,7 +19,7 @@ import { mdiHome } from '@mdi/js'
     <div class="m-8">
         <h2 class="text-xl font-bold">Test</h2>
         <div class="ml-4 mt-4">
-            <p>If you see a blue house icon and a blue "SECONDARY" button below, then everything was correctly installed.</p>
+            <p>If you see a blue house icon and a blue button below, then everything was correctly installed.</p>
         </div>
         <div class="mt-4 flex items-center justify-center gap-8">
             <div class="text-blue-700">
