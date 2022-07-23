@@ -19,7 +19,7 @@ If you wish to update the packages in this module you can either update each one
 
 To use the latter, you must install it globally by running :
 ```
-npm i -g npm-check-update
+npm i -g npm-check-updates
 ```
  You can then check which packages need an update by running:
  ```
