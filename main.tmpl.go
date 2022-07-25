@@ -19,7 +19,7 @@ func main() {
 		Width:         900,
 		Height:        600,
 		DisableResize: false,
-		Fullscreen:    false,
+		// Fullscreen:    false,
 		Frameless:     false,
 		// MinWidth:          400,
 		// MinHeight:         400,
