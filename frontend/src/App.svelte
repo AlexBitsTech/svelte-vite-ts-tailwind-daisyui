@@ -4,7 +4,7 @@
     
     </script>
     
-    <main data-theme="luxury">
+    <main data-theme="luxury" class="min-h-screen">
         <h1 class="text-3xl text-center font-bold pt-6">Template</h1>
         <div class="m-8">
             <h2 class="text-xl font-bold">Description</h2>

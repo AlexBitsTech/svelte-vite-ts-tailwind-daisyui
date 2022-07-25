@@ -19,3 +19,14 @@ func NewApp() *App {
 func (a *App) Greet(name string) string {
 	return fmt.Sprintf("Hello %s, It's show time!", name)
 }
+
+// startup is called when the app starts. The context is saved
+// so we can call the runtime methods
+func (a *App) startup(ctx context.Context) {
+	a.ctx = ctx
+}
+
+// domready is called when all frontend elements are loaded.
+func (a *App) domready(ctx context.Context) {
+	fmt.Println("dom ready")
+}
