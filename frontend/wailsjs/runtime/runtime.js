@@ -41,7 +41,7 @@ export function EventsOnMultiple(eventName, callback, maxCallbacks) {
 }
 
 export function EventsOn(eventName, callback) {
-    EventsOnMultiple(eventName, callback, -1);
+    OnMultiple(eventName, callback, -1);
 }
 
 export function EventsOff(eventName) {
@@ -49,7 +49,7 @@ export function EventsOff(eventName) {
 }
 
 export function EventsOnce(eventName, callback) {
-    EventsOnMultiple(eventName, callback, 1);
+    OnMultiple(eventName, callback, 1);
 }
 
 export function EventsEmit(eventName) {
@@ -59,10 +59,6 @@ export function EventsEmit(eventName) {
 
 export function WindowReload() {
     window.runtime.WindowReload();
-}
-
-export function WindowReloadApp() {
-    window.runtime.WindowReloadApp();
 }
 
 export function WindowSetSystemDefaultTheme() {
@@ -94,7 +90,7 @@ export function WindowUnfullscreen() {
 }
 
 export function WindowGetSize() {
-    return window.runtime.WindowGetSize();
+    window.runtime.WindowGetSize();
 }
 
 export function WindowSetSize(width, height) {
@@ -114,7 +110,7 @@ export function WindowSetPosition(x, y) {
 }
 
 export function WindowGetPosition() {
-    return window.runtime.WindowGetPosition();
+    window.runtime.WindowGetPosition();
 }
 
 export function WindowHide() {
@@ -151,10 +147,6 @@ export function WindowSetRGBA(RGBA) {
 
 export function BrowserOpenURL(url) {
     window.runtime.BrowserOpenURL(url);
-}
-
-export function Environment() {
-    return window.runtime.Environment();
 }
 
 export function Quit() {
