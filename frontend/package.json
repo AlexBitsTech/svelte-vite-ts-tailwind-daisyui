@@ -10,23 +10,23 @@
       "check": "svelte-check --tsconfig ./tsconfig.json"
     },
     "devDependencies": {
-      "@sveltejs/vite-plugin-svelte": "^1.0.1",
+      "@sveltejs/vite-plugin-svelte": "^1.0.5",
       "@tsconfig/svelte": "^3.0.0",
-      "svelte": "^3.49.0",
-      "svelte-check": "^2.8.0",
+      "svelte": "^3.50.1",
+      "svelte-check": "^2.9.0",
       "svelte-preprocess": "^4.10.7",
       "tslib": "^2.4.0",
-      "typescript": "^4.7.4",
-      "vite": "^3.0.3",
-      "autoprefixer": "^10.4.7",
-      "daisyui": "^2.20.0",
-      "postcss": "^8.4.14",
-      "tailwindcss": "^3.1.6"
+      "typescript": "^4.8.3",
+      "vite": "^3.1.0",
+      "autoprefixer": "^10.4.9",
+      "daisyui": "^2.27.0",
+      "postcss": "^8.4.16",
+      "tailwindcss": "^3.1.8"
     },
     "dependencies": {
       "@jamescoyle/svelte-icon": "^0.1.1",
       "@mdi/js": "^7.0.96",
-      "@vitejs/plugin-vue": "^3.0.1"
+      "@vitejs/plugin-vue": "^3.1.0"
     }
 }
   
