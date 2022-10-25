@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "./app.css"
     import SvgIcon from '@jamescoyle/svelte-icon'
     import { mdiHome } from '@mdi/js'
     
@@ -35,10 +36,5 @@
             </div>
         </div>
     </main>
-    
-    <style lang="postcss" global>
-      @tailwind base;
-      @tailwind components;
-      @tailwind utilities;
-    </style>
+
     

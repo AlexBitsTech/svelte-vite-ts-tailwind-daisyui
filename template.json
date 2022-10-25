@@ -1,7 +1,7 @@
 {
-    "name": "Svelte + Vite (Typescript) + Tailwindcss + flowbite",
-    "shortname": "svelte-ts-tailwind-flowbite",
+    "name": "Svelte + Vite (Typescript) + Tailwindcss + daisyui",
+    "shortname": "svelte-ts-tailwind-daisyui",
     "author": "AlexBitsTech",
-    "description": "Svelte + TS + Vite development server with Tailwindcss and FlowBite component library",
-    "helpurl": "https://github.com/AlexBitsTech/svelte-vite-ts-tailwind-flowbite"
+    "description": "Svelte + TS + Vite development server with Tailwindcss and DaisyUI component library",
+    "helpurl": "https://github.com/AlexBitsTech/svelte-vite-ts-tailwind-daisyui"
   }
